@@ -246,3 +246,101 @@ main {
     color: var(--warm-black);
     font-weight: 300;
 }
+.main-produc-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.main-produc-detail .product-detail-patata {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url("./assets/icons/batata.svg");
+    top: -10px;
+    left: calc(50% - 20px);
+}
+.product-detail-tittle {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail-tittle h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail-tittle p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail-card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 160px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail-card .clock {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-card-tittle {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail-card .eyes {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/eye.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail-card .money {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/dollar-sign.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail-card .check {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/check-circle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
